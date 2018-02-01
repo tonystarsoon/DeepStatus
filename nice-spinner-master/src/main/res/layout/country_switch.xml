@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/country_group"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:button="@null"
+            android:drawableLeft="@drawable/flag"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="美国"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:button="@null"
+            android:drawableLeft="@drawable/flag"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="日本"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:button="@null"
+            android:drawableLeft="@drawable/flag"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="韩国"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:button="@null"
+            android:drawableLeft="@drawable/flag"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="香港"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:button="@null"
+            android:drawableLeft="@drawable/flag"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="台湾"
+            android:textSize="12sp" />
+    </RadioGroup>
+</LinearLayout>
+
+
+

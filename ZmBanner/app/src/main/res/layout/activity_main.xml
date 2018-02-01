@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <tony.cn.zbanner.zmbanner.ZmBanner xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/zmbanner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:indicator_drawable_selected="@color/main_color"
+        app:indicator_drawable_unselected="@android:color/white"
+        app:indicator_height="2dp"
+        app:indicator_margin="4dp"
+        app:indicator_width="10dp" />
+</LinearLayout>
+
+
+
+
+
+
+
